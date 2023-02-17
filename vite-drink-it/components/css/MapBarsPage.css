@@ -1,0 +1,20 @@
+#map{
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+}
+
+.leaflet-container{
+    height: 100%;
+}
+
+.price {
+    background: unset;
+    box-shadow: none;
+    border: none;
+}
+
+.Map{
+    padding-left: 0;
+    padding-right: 0;
+}
