@@ -7,8 +7,9 @@
   "scripts": {
     "dev": "vite",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "build": "vite build",
+    "start": "npm src/main.jsx",
     "preview": "vite preview"
   },
   "dependencies": {
